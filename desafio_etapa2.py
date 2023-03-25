@@ -10,5 +10,5 @@ class Character:
         return f"Nome: {self.nome}. \nDescrição: {self.descricao}. \nImagem: {self.image_link}. \nPrograma: {self.programa}. \nAnimador: {self.animador}."
 
 #Exemplo de uso
-batman = Character("Batmadasdn", "Super-herói de Gotham City", "https://upload.wikimedia.org/wikipedia/pt/8/8d/Batman_por_Jim_Lee.jpg", "Liga da Justiça", "Warner Bros")
+batman = Character("Batman", "Super-herói de Gotham City", "https://upload.wikimedia.org/wikipedia/pt/8/8d/Batman_por_Jim_Lee.jpg", "Liga da Justiça", "Warner Bros")
 print(batman)

@@ -32,6 +32,7 @@ data = [
 """
 Para fazer requisições: requests.ação(BASE+ "character/id")
 ações são: put(), get(), patch(), delete()
+patch() e delete() eram opcionais, mas decidi adiciona-los como desafio de aprendizado.
 
 Exemplos a seguir.
 
@@ -70,7 +71,7 @@ input()
 
 
 # Para verificar se character de id 0 foi deletado:
-print("Chama o personagem para confirmar se ele foi deletado:")
+print("Get é chamado para confirmar se o personagem foi deletado:")
 response = requests.get(BASE + "characters/0")
 print(response.json())
 print("Deletado com sucesso. :)")

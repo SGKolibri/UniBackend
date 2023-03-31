@@ -9,4 +9,4 @@ para instalar todas bibliotecas necessárias.
 Para exeutar a API:
 rode o script 'main.py' em um terminal, e 'request.py' em outro.
 
-Favor, ler as intruções de uso presentes em cada script.
+Por favor, ler as intruções de uso presentes em cada script.
